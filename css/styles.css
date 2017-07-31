@@ -6,6 +6,10 @@ label {
     display: inline-block;
 }
 
+p {
+    font-family: "Open Sans", sans-serif;
+}
+
 input[type="text"],
 input[type="email"] {
     padding: 5px 10px;
@@ -56,6 +60,7 @@ input[type="submit"]:hover {
 .left {
     width: 300px;
     float: left;
+    clear: left;
 }
 
 .right {
